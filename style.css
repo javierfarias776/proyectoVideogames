@@ -1,0 +1,31 @@
+
+nav{/*agregado de sombra a navbar*/
+    box-shadow: 0 0 2rem -1rem; 
+   
+}
+
+#contenedor{
+    
+    display: grid;
+    grid-auto-rows: 18rem auto;
+    grid-template-columns: repeat(auto-fill, minmax(15rem,1fr));
+    gap: 2rem;
+    
+   
+    margin: 20px 40px;
+    
+}
+
+.card:hover .card-body{
+    opacity: 1;
+    border-radius: 5px;
+    
+
+}
+.card:hover{
+    transform: translateY(-3%);
+    
+}
+
+
+
