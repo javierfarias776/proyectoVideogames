@@ -1,10 +1,18 @@
 [
-    {"id": 1, "nombre": "Gow", "precio": 10000, "img":"img/gow.jpeg"},
-    {"id": 2, "nombre": "Cod", "precio": 11000 , "img":"img/cod.jpg"},
-    {"id": 3, "nombre": "Gta", "precio": 12000, "img":"img/gta2.jpg"},
-    {"id": 4, "nombre": "Fifa", "precio": 13000, "img":"img/gta2.jpg"},
-    {"id": 5, "nombre": "MK11", "precio": 14000, "img":"img/mk2.jpg"},
-    {"id": 6, "nombre": "Tlou", "precio": 15000, "img":"img/theLastOfUs.jpg"},
-    {"id": 7, "nombre": "Uncharted", "precio": 16000, "img":"img/uncharted.jpeg"},
-    {"id": 8, "nombre": "Until Dawn", "precio": 17000, "img":"img/untilDawn.jpg"}
+    {"id": 1, "nombre": "Gow", "precio": 10000, "img":"img/gow.jpeg","cantidad":1},
+    {"id": 2, "nombre": "Cod", "precio": 11000 , "img":"https://i.blogs.es/88d2ec/cod_mw/450_1000.webp","cantidad":1},
+    {"id": 3, "nombre": "Gta", "precio": 12000, "img":"img/gta2.jpg","cantidad":1},
+    {"id": 4, "nombre": "Fifa", "precio": 13000, "img":"img/fifa.jpg","cantidad":1},
+    {"id": 5, "nombre": "MK11", "precio": 14000, "img":"img/mk2.jpg","cantidad":1},
+    {"id": 6, "nombre": "Tlou", "precio": 15000, "img":"img/theLastOfUs.jpg","cantidad":1},
+    {"id": 7, "nombre": "Uncharted", "precio": 16000, "img":"img/uncharted.jpeg","cantidad":1},
+    {"id": 8, "nombre": "Until Dawn", "precio": 17000, "img":"img/untilDawn.jpg","cantidad":1},
+    {"id": 9, "nombre": "CrashBandicourt", "precio": 18000, "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQozzU3Uq1hcNdxdTpKbYH7V5zhCO8yKj-5kA&s", "cantidad":1},
+    {"id": 10, "nombre": "The Little Nigthmares", "precio": 19000, "img": "https://p325k7wa.twic.pics/high/little-nightmares/little-nightmares/07-retailers/LN_KeyArt.png?twic=v1/step=10/quality=80/max=760", "cantidad":1},
+    {"id": 11, "nombre": "Red Dead Redemption 2", "precio": 20000, "img": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/10/red-dead-redemption-2_22.jpg?tf=3840x", "cantidad":1},
+    {"id": 12, "nombre": "Forza", "precio": 21000, "img": "img/forza.jpg", "cantidad":1},
+    {"id": 13, "nombre": "ResidentEvil", "precio": 22000, "img": "https://contactonoticias.com.mx/wp-content/uploads/2022/10/RE4.jpg", "cantidad":1},
+    {"id": 14, "nombre": "Batman", "precio": 23000, "img": "https://cdn2.unrealengine.com/egs-fallguys-mediatonic-g1a-00-1920x1080-75b891d04ff9.jpg", "cantidad":1},
+    {"id": 15, "nombre": "Spiderman", "precio": 24000, "img": "img/3.jpg", "cantidad":1},
+    {"id": 16, "nombre": "Gosht Of Tushima", "precio": 25000, "img": "https://img.asmedia.epimg.net/resizer/v2/https%3A%2F%2Fasmeristationfs.prisasd.com%2Fasmeristation%2Fimagenes%2F20207%2F14%2F20200714154218_1594734286_still.jpg?auth=0a552926df8895e34c638ba1fd047d36f15b5396152e0a1a985bc2dee3ae0efa&width=1472&height=828&smart=true", "cantidad":1}
 ]

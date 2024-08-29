@@ -30,24 +30,112 @@
                 <a class="nav-link" href="productos.html">Productos</a>
               </li>
               
-              <i class="bi bi-bag-check" id="carritoContenedor">0</i>
-              </li>
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="botonCarrito">
+  <i class="bi bi-bag-check" > carrito</i>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="verCarrito">
+        ...
+      </div>
+      <div class="modal-footer" id="totalContainer">
+        
+      </div>
+    </div>
+  </div>
+</div>
+             
             </ul>
-          
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" id="searchInput" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
+    <!--:::: Fin De NavBar ::::-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          <img src="./img/carroseltlo.jpg" class="d-block w-100" alt="The last of us">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>The Last Of Us</h5>
+            <p> Sumergete en este mundo de supervivencia junto a Joel y Ellie</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://i0.wp.com/todasgamers.com/wp-content/uploads/2022/11/Banner-god-of-war-ragnarok.jpg?fit=1200%2C400&ssl=1" class="d-block w-100 h-" alt="GOW">
+            <div class="carousel-caption d-none d-md-block">
+          <h5>God Of War- Ragnarok</h5>
+          <p>El mejor juego del año, unete a esta maravilla de historia y accion</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://swall.teahub.io/photos/small/151-1510755_marvel-spider-man-ps4.png" class="d-block w-100" alt="MK">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Spiderman</h5>
+          <p>Disfruta de las nuevas aventuras de nuestro gran vecino y amigo favorito</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
 
-        <div id="contenedor"></div>
+        <h1>inicio</h1>
 
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script src="index.js"></script>
-   
+    <!--..........................:::: Inicio Pie De Pagina ........................::::-->
+          <footer class="pie-pagina">
+            <div class="grupo-1">
+              <div class="box">
+                 <a class="navbar-brand" href="index.html"><img src="img/control.jpg" alt="logo" class="w-50"></a>
+                  <span class="navbar-toggler-icon"></span>
+              </div>
+              <div class="box">
+                <h2>Acerca de</h2>
+                <ul>
+                  <li><a href="index.html"><b>Inicio</b></a></li>
+                  <li><a href="productos.html"><b>Productos</b></a></li>
+                </ul>
+      
+              </div>
+              <div class="box">
+                <h2>Siguenos En las Redes</h2>
+                <div class="redes-container">
+                  <ul>
+                    <li><a href="https://www.facebook.com/" class="facebook"><i class=" fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/" class="instagram"><i class=" fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.twitter.com/" class="twitter"><i class=" fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.pinterest.com/" class="pinterest"><i class=" fa fa-pinterest"></i></a></li>
+                    <li><a href="https://www.youtube.com/" class="youtube"><i class=" fa fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="grupo-2">
+              <small>Copy; 2023 <b>ProyectGames</b> - Todos Los Derechos Reservados</small>
+            </div>
+          </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c0dc498e5c.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+ 
 </body>
 </html>

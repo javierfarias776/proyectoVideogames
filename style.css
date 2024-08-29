@@ -16,16 +16,136 @@ nav{/*agregado de sombra a navbar*/
     
 }
 
-.card:hover .card-body{
+.card-hover:hover .card-body{
     opacity: 1;
     border-radius: 5px;
     
 
 }
-.card:hover{
+.card-hover:hover{
     transform: translateY(-3%);
     
 }
+
+
+/*...................................:::: Pie de pagina ::::.............................*/
+
+.pie-pagina{/*fondo*/
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 2rem -1rem; 
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pie-pagina .grupo-1 .box figure img{/*box img logo*/
+    width: 25px; 
+
+}
+
+.box ul li {/*:::box acerca de  :::*/
+    list-style: none;
+    
+}
+.box ul li a{
+    font-size: 15px;
+    color: #333646;
+    text-decoration: none;
+
+}
+.box ul li a:hover{
+    color: black;
+    
+}
+
+/*................................................ ::: box redes sociales. :::......................................*/
+.redes-container{
+    display: flex; /**/
+    align-items: center;/*alinea item al centro*/
+    justify-content: center;/**/
+}
+.redes-container ul li{
+    display: inline-block;/*se alinean horizontalmente y quita los puntos de referencia*/
+    margin: 0 5px;/*margen*/
+    width: 50px;/*ancho*/
+    height: 50px;/*altura*/
+    text-align: center;/*se alinean el elemento a al centro*/
+
+}
+.redes-container ul li a{
+    display: block;/**/
+    padding: 0 10px;/**/
+    background: #333;/*fondo*/
+    color: #ffff;/*color de items*/
+    line-height: 50px;/*tamaño de altura para fondo cuadrado*/
+    font-size: 10px;/*tamaño de fuente*/
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2 );/*sombra de cuadrado*/
+    transition: .2s;/**/
+}
+.redes-container ul:hover a{
+    filter: blur(2px);/*desenfoca todos los items*/
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);/*translateY hace que elitem crezca hacia arriba*/
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4 );
+    filter:none;/*hace que no se desenfoque el item apuntado*/
+}
+
+ /*::: Agregamos colores individuales a los items :::*/
+.redes-container ul li .facebook:hover{
+    background: cornflowerblue;
+}
+.redes-container ul li .instagram:hover{
+    background: rgb(232, 55, 117);
+}
+.redes-container ul li .twitter:hover{
+    background: #55acee;
+
+}
+.redes-container ul li .pinterest:hover{
+    background: white;
+
+}
+.redes-container ul li .youtube:hover{
+    background: red;
+
+}
+.pie-pagina .grupo-2{
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+
+}
+
+/*::: footer responsive :::*/
+@media screen and (max-width: 800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+};
 
 
 
