@@ -8,11 +8,21 @@ nav {
 
 }
 
-.carousel-item img {
+/*imagen principal de productos*/
+.imagep {
     height: 400px;
-    width: 1200px;
+    width: 1260px;
 
 }
+
+/*area informativa pag home */
+section {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+/*galeria de imagenes de pag home*/
 
 .imga {
     padding: 10px;
@@ -27,33 +37,26 @@ nav {
 }
 
 
-/*renderizacion de productos*/
+/*renderizacion de productos de js pag productos*/
 #contenedor {
-
     display: grid;
     grid-auto-rows: 18rem auto;
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     gap: 2rem;
-
-
     margin: 20px 40px;
-
 }
 
 .card-hover:hover .card-body {
-    opacity: 1;
+    opacity: 0.5;
     border-radius: 5px;
-
-
 }
 
 .card-hover:hover {
-    transform: translateY(-3%);
-
+    transform: translateY(-2%);
 }
 
 
-/*...................................:::: Pie de pagina ::::.............................*/
+/*footer*/
 
 .pie-pagina {
     /*fondo*/
@@ -70,7 +73,6 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 45px 0px;
-
 }
 
 .pie-pagina .grupo-1 .box figure {
@@ -79,34 +81,30 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .pie-pagina .grupo-1 .box figure img {
     /*box img logo*/
     width: 25px;
-
 }
 
 .box ul li {
     /*:::box acerca de  :::*/
     list-style: none;
-
 }
 
 .box ul li a {
     font-size: 15px;
     color: #333646;
     text-decoration: none;
-
 }
 
 .box ul li a:hover {
     color: black;
-
 }
 
-/*................................................ ::: box redes sociales. :::......................................*/
+
+/*box redes sociales*/
 .redes-container {
     display: flex;
     /**/
@@ -151,7 +149,7 @@ nav {
 
 .redes-container ul:hover a {
     filter: blur(2px);
-    /*desenfoca todos los items*/
+    /*desenfoca todos los items de redes sociales*/
 }
 
 .redes-container ul li a:hover {
@@ -199,6 +197,14 @@ nav {
 
 }
 
+/*imagen principal pag productos*/
+@media screen and (max-width: 950px) {
+    .imagep {
+        height: 300px;
+        width: 830px;
+    }
+}
+
 /*::: footer responsive :::*/
 @media screen and (max-width: 800px) {
     .pie-pagina .grupo-1 {
@@ -207,6 +213,14 @@ nav {
         grid-gap: 30px;
         padding: 35px 0px;
     }
+
+    .imagep {
+        height: 200px;
+        width: 630px;
+
+    }
 }
+
+
 
 ;
